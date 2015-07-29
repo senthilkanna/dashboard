@@ -64,10 +64,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'ds047692.mongolab.com:47692',
-	'username' => 'test_w8dn2z47',
-	'password' => 'test',
-	'database' => 'heroku_w8dn2z47',
+	'hostname' => 'SG-Dashboard-5155.servers.mongodirector.com',
+	'username' => 'admin',
+	'password' => 'bbkFwIW27NwHuyjV',
+	'database' => 'dashboard',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
