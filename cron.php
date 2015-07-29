@@ -1,8 +1,9 @@
 <?php 
 date_default_timezone_set ("America/New_York");
+
 $datetime1 = new DateTime();
 	//$m = new MongoClient();
-	 $m = new Mongo('mongodb://admin:bbkFwIW27NwHuyjV@SG-Dashboard-5155.servers.mongodirector.com:27017/admin');
+	 $m = new Mongo('mongodb://admin:bbkFwIW27NwHuyjV@SG-Dashboard-5155.servers.mongodirector.com:27017');
   // echo "Connection to database successfully";
    // select a database
    $db = $m->dashboard;
