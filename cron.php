@@ -1,6 +1,7 @@
 <?php 
 date_default_timezone_set ("America/New_York");
-
+error_reporting(E_ALL);
+ini_set("display_errors", 1);
 $datetime1 = new DateTime();
 	//$m = new MongoClient();
 	 $m = new Mongo('mongodb://admin:bbkFwIW27NwHuyjV@SG-Dashboard-5155.servers.mongodirector.com:27017');
